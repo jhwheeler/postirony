@@ -12,11 +12,11 @@ Things we love:
 4. Konosuba
 5. Linux
 6. Good things
+7. You
 
 Things we hate:
 
 1. Lists
-3. Wrong numbering
 2. Irony
 4. Fate
 5. Attack on Titan
