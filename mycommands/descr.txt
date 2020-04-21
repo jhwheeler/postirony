@@ -1,0 +1,13 @@
+(bash) {
+  bchek -- does nothing particular, for checking whatever is written in bchek
+  bchekr -- edit bchek
+  gadd -- git add -A; git commit -m $1
+  grm -- git rm $1; rm -rf $1
+  mbs -- make bash script with name $1
+  range -- ar=($(range n)) makes $ar == python-range-like array [0, 1, ..., n-1]
+  mycommands -- cat ~/.mycommands/descr.txt
+}
+(child plain porn) {
+  cchek -- does nothing particular, for checking whatever is written in cchek (cchek.cpp)
+  cchekr -- edit cchek.cpp and make cchek
+}

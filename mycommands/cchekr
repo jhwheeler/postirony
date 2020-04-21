@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#File: cchekr
+
+vim ~/.mycommands/cchek.cpp
+make ~/.mycommands/cchek

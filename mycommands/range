@@ -2,22 +2,7 @@
 #File: range
 
 function work {
-  local ar=()
-  local i=0
-  if [[ $1 -ge 0 ]]
-  then
-    while [[ $i -lt $1 ]]
-    do
-      ar+=($i)
-      let i=$i+1
-    done
-  else
-    while [[ $i -gt $1 ]]
-    do
-      ar+=($i)
-      let i=$i-1
-    done
-  fi
+  local ar=$(eval echo {0..$1})
   echo "${ar[*]}"
 }
 

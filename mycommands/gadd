@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#File: gadd
+git add -A
+git commit -m "$@"

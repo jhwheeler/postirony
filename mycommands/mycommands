@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#File: mycommands
+
+cat ~/.mycommands/descr.txt
